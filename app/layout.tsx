@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google"
 
+// @ts-expect-error: CSS side-effect import without type declarations
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
